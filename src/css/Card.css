@@ -1,0 +1,92 @@
+.main {
+  /* background:skyblue; */
+  font-family: montserrat;
+  margin: 0 10px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* background-color:#502204; */
+  background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  /* width: 90vw; */
+  /* height:350px; */
+  /* overflow: hidden; */
+  box-shadow: 1px 1px 10px 1px;
+  border-radius: 15px;
+  /* position: absolute; */
+}
+.first {
+  background-color: #fff;
+  width: 300px;
+  height: 200px;
+  box-shadow: 1px 1px 5px 1px;
+  margin: 12px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.first:hover {
+  background-color: black;
+  color: white;
+  transition: 1s;
+}
+.second {
+  background-color: #fff;
+  width: 300px;
+  height: 200px;
+  box-shadow: 1px 1px 5px 1px;
+  margin: 12px 16px;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center;
+  cursor: pointer;
+}
+.second:hover {
+  background-color: black;
+  color: white;
+  transition: 1s;
+}
+button {
+  width: 7em;
+  height: 2em;
+  border: none;
+  background: purple;
+  color: white;
+  border-radius: 5px;
+}
+button:hover {
+  background: black;
+  /* color:black; */
+  transition: 1s;
+}
+
+img {
+  margin: 5px 2px;
+  width: 280px;
+  height: 100px;
+}
+
+.card-text {
+  width: 200px;
+  text-align: center;
+  font-weight: 600;
+  /* display: flex; */
+}
+.text-content {
+  display: flex;
+  justify-content: space-between;
+}
+span {
+  font-weight: 100;
+  padding: 1px;
+}
